@@ -9,10 +9,61 @@
 	    	background-color: #DCDCDC;
 	    	
 	    }
-	    	
+	    img .imgifo {
+	    	width: 300px;
+			height: 310px;
+			margin-bottom: 15px;
+			margin-top: 10px;
+	    }
+	    img .imgifo7 {
+	    	width: 300px;
+			height: 315px;
+	    }
+	    img .imgifo8 {
+	    	margin-bottom: 20px;
+	    	margin-top: 20px;
+	    	width: 300px;
+	    }	
 	    img{
 	    	width: 350px;
 	    	height: 300px;
+	    }
+	    div .col-7 b {
+	    	line-height: 40px;
+	    }
+	    .col-5 {
+	    	line-height: 40px;
+	    	margin-top: 50px;
+	    	font-size: 20px;
+
+	    }
+		.col-7 {
+		font-size: 20px;
+		margin-top: 50px;
+		line-height: 30px;
+		
+	    }	
+	    	
+	    
+	    .price {
+	    	padding: 30px;
+	    	font-size: 30px;
+	    	
+	    }
+	    .btn-primary {
+	    	padding: 15px 25px;
+	    	display: inline-block;
+  			color: #000000;
+  			border-radius: 10px;
+  			text-decoration: none;
+  			font-size: 22px;
+  			font-weight: 500;
+  			background-color: #FFA07A;
+
+	    }
+	    .btn-primary:hover {
+	    	text-decoration: none;
+	    	background-color: #800000;
 	    }
 
 
