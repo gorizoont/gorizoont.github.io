@@ -23,10 +23,31 @@
 	    	margin-bottom: 20px;
 	    	margin-top: 20px;
 	    	width: 300px;
+	    }
+	    img .lenvo {
+	    	width: 350px;
+	    	height: 200px;
+	    	margin-top: 40px;
+	    	margin-bottom: 40px;
 	    }	
 	    img{
 	    	width: 350px;
 	    	height: 300px;
+	    }	    
+	    img .tv3 {
+	    	height: 255px;
+			margin-bottom: 25px;
+			padding: 15px;
+	    }	    
+	    img .tv2 {
+	    	margin-bottom: -20px;
+			padding: 15px;
+			height: 300px;
+	    }
+	    img .tv1 {
+	    	height: 240px;
+			margin-bottom: 40px;
+			padding: 15px;
 	    }
 	    div .col-7 b {
 	    	line-height: 40px;
@@ -205,6 +226,34 @@
 			height: 255px;
 			margin-bottom: 25px;
 			padding: 15px;
+		}		
+		.col-lg-12 {
+			padding: 60px;
+
+
+			
+		}
+
+
+
+		.col-lg-12 a {
+			text-decoration: none;
+			display: block;
+			color: #000000;
+			font-size: 25px;
+			text-align: center;
+
+
+		}
+		.col-lg-12 a text {
+			
+			
+		}
+		.col-lg-12 a:hover {
+		background: -webkit-linear-gradient(rgba(0,0,0,0.27) 0%, rgba(0,0,0,0.27) 5%, rgba(0,0,0,0.27) 22%, rgba(0,0,0,0) 100%);
+		background: -o-linear-gradient(rgba(0,0,0,0.27) 0%, rgba(0,0,0,0.27) 5%, rgba(0,0,0,0.27) 22%, rgba(0,0,0,0) 100%);
+		background: linear-gradient(rgba(0,0,0,0.27) 0%, rgba(0,0,0,0.27) 5%, rgba(0,0,0,0.27) 22%, rgba(0,0,0,0) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45000000', endColorstr='#00000000',GradientType=0 );
 		}
 
 
