@@ -256,6 +256,17 @@
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45000000', endColorstr='#00000000',GradientType=0 );
 		}
 
+		.content .att {
+			font-size: 3em;
+			margin-top: 140px;
+			font-family: 'Roboto', sans-serif;
+			border-radius: 10px;
+			background-color: #ffffff;
+			display: inline-block;
+			text-align: center;
+			margin-left: 32%;
+		}
+
 
 
 
