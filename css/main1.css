@@ -126,11 +126,12 @@
 
 
    	.footer {
-   		margin-top: 70px;
+   		margin-top: 70px; 
   		background-color: #131313;
   		padding: 120px 30px;
   		color: #666666;
   		position: static;
+
   		
 
 	}

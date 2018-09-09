@@ -282,3 +282,49 @@
   		color: #666666;
 
 	}
+
+
+
+@media screen and (max-width: 992px) {
+	.menu ul li a {
+			display: block;
+			background: rgb(238,238,238);
+			background: -webkit-linear-gradient(rgba(238,238,238,1) 0%, rgba(204,204,204,1) 100%);
+			background: -o-linear-gradient(rgba(238,238,238,1) 0%, rgba(204,204,204,1) 100%);
+			background: linear-gradient(rgba(238,238,238,1) 0%, rgba(204,204,204,1) 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 );
+			padding: 15px 35px 15px 45px;
+			font-size: 19px;
+			text-decoration: none;
+			color: #453537;
+			
+		
+		
+		}
+
+}
+@media screen and (max-width: 767px) {
+	.menu ul li a {
+			display: block;
+			background: rgb(238,238,238);
+			background: -webkit-linear-gradient(rgba(238,238,238,1) 0%, rgba(204,204,204,1) 100%);
+			background: -o-linear-gradient(rgba(238,238,238,1) 0%, rgba(204,204,204,1) 100%);
+			background: linear-gradient(rgba(238,238,238,1) 0%, rgba(204,204,204,1) 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 );
+			padding: 10px 15px 10px 20px;
+			font-size: 10px;
+			text-decoration: none;
+			color: #453537;
+			
+		
+		
+		}
+		.menu ul li a i.fa {
+			position: absolute;
+			top: 12px;
+			left: 5px;
+			transition: 0.5s;
+
+		}
+
+}
