@@ -185,7 +185,12 @@
 		}
 		.xiomi {
 			margin-bottom: -10px;
+
 			
+		}
+
+		img .xiomi {
+			margin-top: 30px
 		}
 		.acer {
 			height: 200px;
