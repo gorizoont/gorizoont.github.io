@@ -472,7 +472,7 @@ div .col-7 b {
     background: linear-gradient(rgba(238,238,238,1) 0%, rgba(204,204,204,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 );
     padding: 10px 15px 10px 20px;
-    font-size: 7px;
+    font-size: 10px;
     text-decoration: none;
     color: #453537;
       
