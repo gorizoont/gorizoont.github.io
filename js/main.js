@@ -1,19 +1,13 @@
-function myFunction(){
-    var input, filter, li, a, i;
-    input = document.getElementById("myInput");
-    filter = input.value.toUpperCase();   
-    li = document.querySelectorAll("div > a");
-    for (i = 0; i < li.length; i++) {
-        a = li[i].getElementsByTagName("a")[0];
-        if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
-            li[i].style.display = "";
-        } else {
-            li[i].style.display = "none";
-        }
-    }
+window.onload = function() {
+  document.getElementById("myInput").addEventListener("keyup", filterList);
+};
 
-    
+function filterList(event) {
+  var list = document.querySelectorAll("div > a");
+  var filter = event.target.value.toLowerCase();
+  list.forEach(function(element) {
+    var itemTitle = element.getElementsByTagName("span")[0].innerHTML;
+    var shouldBeShown = itemTitle.toLowerCase().indexOf(filter) !== -1;
+    element.style.display = shouldBeShown ? "" : "none";
+  });
 }
-var rr = document.querySelectorAll("div > a");
-console.log(rr);
-
