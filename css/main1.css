@@ -84,6 +84,7 @@ header {
   position: relative;
   border-right: 1px solid #c7c8ca;
   border-left: 1px solid #c7c8ca;
+  list-style-type: none;
 }
 
 .menu ul li a i.fa {
