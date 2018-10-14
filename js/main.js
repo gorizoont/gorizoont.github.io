@@ -3,7 +3,8 @@ window.onload = function() {
 };
 
 function filterList(event) {
-  var list = document.querySelectorAll("div > a");
+  const nodelist = document.getElementsByClassName("item");
+  const list = Array.from(nodelist);
   var filter = event.target.value.toLowerCase();
   list.forEach(function(element) {
     var itemTitle = element.getElementsByTagName("span")[0].innerHTML;
@@ -11,3 +12,4 @@ function filterList(event) {
     element.style.display = shouldBeShown ? "" : "none";
   });
 }
+
