@@ -2,6 +2,7 @@ body {
   background-color: #dcdcdc;
   margin: 0;
   padding: 0;
+  font-family: 'Roboto', sans-serif;
 }
 header {
   padding-top: 20px;
@@ -16,7 +17,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', end
 }
 
 span{
-  margin-left: 5%;
+  margin-left: 7%;
 }
 
 .tth{
@@ -29,11 +30,13 @@ span{
   /*width: 70%*/;
   /*min-width: 300px;*/
   max-width: 700px;
+  font-size: 17px;
 }
 .contentt{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  font-family: 'Roboto', sans-serif;
 
 }     
 
@@ -59,21 +62,21 @@ span{
   text-decoration: none;
   background-color: #800000;
 }
-img .imgifo {
-  width: 300px;
-  height: 310px;
+.imgifo {
+  max-width: 250px;
   margin-bottom: 15px;
   margin-top: 10px;
 }
 
-img .imgifo7 {
-  width: 300px;
+.imgifo7 {
+  max-width: 280px;
   height: 315px;
 }
-img .imgifo8 {
+.imgifo8 {
+  max-width: 250px;
   margin-bottom: 20px;
   margin-top: 20px;
-  width: 300px;
+  
 }
 .lenvo {
   width: 350px;
@@ -93,24 +96,25 @@ img .xiomi {
   margin-top: 30px
 
 }
-img .tv3 {
-  height: 255px;
+.tv3 {
+  width: 350px;
   margin-bottom: 25px;
   padding: 15px;
 }     
-img .tv2 {
+.tv2 {
   margin-bottom: -20px;
   padding: 15px;
-  height: 300px;
+  width: 350px;
 }
-img .tv1 {
-  height: 240px;
+.tv1 {
+  width: 350px;
   margin-bottom: 40px;
   padding: 15px;
   }
 div .col-7 b {
   line-height: 40px;
 }
+
 .col-5 {
   line-height: 40px;
   margin-top: 50px;
@@ -518,6 +522,25 @@ div .col-7 b {
     max-width: 200px;
     margin-bottom: -20px;
   }
+  span{
+    margin-left: 0px;
+  }
+  
+  .tv3 {
+    width: 255px;
+    margin-bottom: 25px;
+    padding: 15px;
+  }     
+  .tv2 {
+    margin-bottom: -20px;
+    padding: 15px;
+    width: 250px;
+  }
+  .tv1 {
+    width: 250px;
+    margin-bottom: 40px;
+    padding: 15px;
+  }
 
 }
 @media screen and (max-width: 767px) {
@@ -543,6 +566,21 @@ div .col-7 b {
     transition: 0.5s;
 
   }
+  .tv3 {
+    width: 255px;
+    margin-bottom: 25px;
+    padding: 15px;
+  }     
+  .tv2 {
+    margin-bottom: -20px;
+    padding: 15px;
+    width: 250px;
+  }
+  .tv1 {
+    width: 250px;
+    margin-bottom: 40px;
+    padding: 15px;
+    }
 }
   /*.container__notebook__acer a {
     display: inline-block;
